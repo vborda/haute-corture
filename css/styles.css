@@ -1,0 +1,44 @@
+/*
+Color Palette
+-------
+Primary Color (purple): rgb(65, 44, 142)
+Secondary Color (beige):rgb(242, 218, 157)
+(deep red):rgb(86, 20, 21)
+(pink): rgb(239, 161, 213)
+(black): rgb(11, 2, 12)
+
+Typography
+-----
+Headlines: font-family: 'Old Standard TT', serif;
+Body: font-family: 'Merriweather', serif;
+
+Backgroud
+------
+http://subtlepatterns.com/
+*/
+
+/*Gobal or Sitewide*/
+body {
+    background: url("../img/pink_rice.png");
+}
+
+/*Typography*/
+h1,
+h2 {
+    font-family: 'Old Standard TT', serif;
+    color: rgb(65, 44, 142);
+    text-transform: uppercase;
+}
+
+p,
+blockquote {
+    font-family: 'Merriweather', serif;
+    font-size: .85em;
+    line-height: 1.5em;
+}
+
+blockquote {
+    font-size: 1.5em;
+    padding: 3em;
+    text-align: center;
+}
